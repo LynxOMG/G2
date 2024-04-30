@@ -51,6 +51,7 @@
             this.Controls.Add(this.lblCustomer);
             this.Name = "CustomerForm";
             this.Text = "CustomerForm";
+            this.Load += new System.EventHandler(this.CustomerForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -16,5 +16,10 @@ namespace DBMS_Assignment
         {
             InitializeComponent();
         }
+
+        private void CustomerForm_Load(object sender, EventArgs e)
+        {
+            this.Enabled = true;
+        }
     }
 }
