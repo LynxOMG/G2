@@ -1,0 +1,30 @@
+D:\DBMS\DBMS Assignment\DBMS Assignment\bin\Debug\DBMS Assignment.exe.config
+D:\DBMS\DBMS Assignment\DBMS Assignment\bin\Debug\DBMS Assignment.exe
+D:\DBMS\DBMS Assignment\DBMS Assignment\bin\Debug\DBMS Assignment.pdb
+D:\DBMS\DBMS Assignment\DBMS Assignment\obj\Debug\DBMS Assignment.csproj.AssemblyReference.cache
+D:\DBMS\DBMS Assignment\DBMS Assignment\obj\Debug\DBMS_Assignment.MainForm.resources
+D:\DBMS\DBMS Assignment\DBMS Assignment\obj\Debug\DBMS_Assignment.Properties.Resources.resources
+D:\DBMS\DBMS Assignment\DBMS Assignment\obj\Debug\DBMS Assignment.csproj.GenerateResource.cache
+D:\DBMS\DBMS Assignment\DBMS Assignment\obj\Debug\DBMS Assignment.csproj.CoreCompileInputs.cache
+D:\DBMS\DBMS Assignment\DBMS Assignment\obj\Debug\DBMS Assignment.exe
+D:\DBMS\DBMS Assignment\DBMS Assignment\obj\Debug\DBMS Assignment.pdb
+D:\DBMS\DBMS Assignment\DBMS Assignment\obj\Debug\DBMS_Assignment.Employee.resources
+D:\DBMS\DBMS Assignment\DBMS Assignment\obj\Debug\DBMS_Assignment.DashbordForm.resources
+D:\DBMS\DBMS Assignment\DBMS Assignment\obj\Debug\DBMS_Assignment.VendorForm.resources
+D:\DBMS\DBMS Assignment\DBMS Assignment\obj\Debug\DBMS_Assignment.CustomerForm.resources
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\bin\Debug\DBMS Assignment.exe.config
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\bin\Debug\DBMS Assignment.exe
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\bin\Debug\DBMS Assignment.pdb
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\obj\Debug\DBMS Assignment.csproj.AssemblyReference.cache
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\obj\Debug\DBMS_Assignment.Employee.resources
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\obj\Debug\DBMS_Assignment.CustomerForm.resources
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\obj\Debug\DBMS_Assignment.DashbordForm.resources
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\obj\Debug\DBMS_Assignment.MainForm.resources
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\obj\Debug\DBMS_Assignment.Properties.Resources.resources
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\obj\Debug\DBMS_Assignment.VendorForm.resources
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\obj\Debug\DBMS Assignment.csproj.GenerateResource.cache
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\obj\Debug\DBMS Assignment.csproj.CoreCompileInputs.cache
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\obj\Debug\DBMS Assignment.exe
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\obj\Debug\DBMS Assignment.pdb
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\obj\Debug\DBMS_Assignment.SaleForm.resources
+C:\Users\RITHY\OneDrive\Desktop\G2\DBMS Assignment\obj\Debug\DBMS_Assignment.ItemForm.resources
