@@ -83,6 +83,16 @@ namespace DBMS_Assignment.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo {
+            get {
+                object obj = ResourceManager.GetObject("logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap photo_2023_08_09_10_12_55 {
             get {
                 object obj = ResourceManager.GetObject("photo_2023-08-09_10-12-55", resourceCulture);
@@ -96,6 +106,16 @@ namespace DBMS_Assignment.Properties {
         internal static System.Drawing.Bitmap photo_2023_08_09_10_12_56 {
             get {
                 object obj = ResourceManager.GetObject("photo_2023-08-09_10-12-56", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_2023_11_24_17_50_44 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2023-11-24_17-50-44", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

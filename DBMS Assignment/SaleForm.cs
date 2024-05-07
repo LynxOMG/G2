@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace DBMS_Assignment
 {
-    public partial class DashbordForm : Form
+    public partial class SaleForm : Form
     {
-        public DashbordForm()
+        public SaleForm()
         {
             InitializeComponent();
         }
-
-        
     }
 }

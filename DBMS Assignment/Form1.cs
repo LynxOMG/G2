@@ -19,13 +19,22 @@ namespace DBMS_Assignment
 
         private void btnEmployee_Click(object sender, EventArgs e)
         {
-            
+            btnAdmin.BackColor = Color.Teal;
+            btnCustomer.BackColor = Color.Teal;
+            btnCustomer.BackColor = Color.Teal;
+            btnPurchase.BackColor = Color.Teal;
+            btnSale.BackColor = Color.Teal;
+            btnEmployee.BackColor = Color.Black;
+            btnDashboard.BackColor = Color.Teal;
+            btnVendor.BackColor = Color.Teal;
+            btnAdjustment.BackColor = Color.Teal;
+            btnItem.BackColor = Color.Teal;
             Employee form = new Employee();
             form.TopLevel = false;
             form.FormBorderStyle = FormBorderStyle.None;
             form.WindowState = FormWindowState.Maximized;
             form.Dock = DockStyle.Fill;
-            pnLibraSys.Controls.Add(form);
+            pnBookshopSys.Controls.Add(form);
             form.Show();
             form.BringToFront();
         }
@@ -43,46 +52,162 @@ namespace DBMS_Assignment
             form.FormBorderStyle = FormBorderStyle.None;
             form.WindowState = FormWindowState.Maximized;
             form.Dock = DockStyle.Fill;
-            pnLibraSys.Controls.Add(form);
+            pnBookshopSys.Controls.Add(form);
             form.Show();
             form.BringToFront();
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)
         {
-
+            btnAdmin.BackColor = Color.Teal;
+            btnCustomer.BackColor = Color.Teal;
+            btnCustomer.BackColor = Color.Teal;
+            btnPurchase.BackColor = Color.Teal;
+            btnSale.BackColor = Color.Teal;
+            btnEmployee.BackColor = Color.Teal;
+            btnDashboard.BackColor = Color.Black;
+            btnVendor.BackColor = Color.Teal;
+            btnAdjustment.BackColor = Color.Teal;
+            btnItem.BackColor = Color.Teal;
             DashbordForm form = new DashbordForm();
             form.TopLevel = false;
             form.FormBorderStyle = FormBorderStyle.None;
             form.WindowState = FormWindowState.Maximized;
             form.Dock = DockStyle.Fill;
-            pnLibraSys.Controls.Add(form);
+            pnBookshopSys.Controls.Add(form);
             form.Show();
             form.BringToFront();
         }
 
         private void btnVendor_Click(object sender, EventArgs e)
         {
+            btnAdmin.BackColor = Color.Teal;
+            btnCustomer.BackColor = Color.Teal;
+            btnCustomer.BackColor = Color.Teal;
+            btnPurchase.BackColor = Color.Teal;
+            btnSale.BackColor = Color.Teal;
+            btnEmployee.BackColor = Color.Teal;
+            btnDashboard.BackColor = Color.Teal;
+            btnVendor.BackColor = Color.Black;
+            btnAdjustment.BackColor = Color.Teal;
+            btnItem.BackColor = Color.Teal;
             VendorForm form = new VendorForm();
             form.TopLevel = false;
             form.FormBorderStyle = FormBorderStyle.None;
             form.WindowState = FormWindowState.Maximized;
             form.Dock = DockStyle.Fill;
-            pnLibraSys.Controls.Add(form);
+            pnBookshopSys.Controls.Add(form);
             form.Show();
             form.BringToFront();
         }
 
         private void btnCustomer_Click(object sender, EventArgs e)
         {
+            btnCustomer.BackColor = Color.Black;
+            btnAdmin.BackColor = Color.Teal;
+            btnPurchase.BackColor = Color.Teal;
+            btnSale.BackColor = Color.Teal;
+            btnEmployee.BackColor = Color.Teal;
+            btnDashboard.BackColor = Color.Teal;
+            btnVendor.BackColor = Color.Teal;
+            btnAdjustment.BackColor = Color.Teal;
+            btnItem.BackColor = Color.Teal;
             CustomerForm form = new CustomerForm();
             form.TopLevel = false;
             form.FormBorderStyle = FormBorderStyle.None;
             form.WindowState = FormWindowState.Maximized;
             form.Dock = DockStyle.Fill;
-            pnLibraSys.Controls.Add(form);
+            pnBookshopSys.Controls.Add(form);
             form.Show();
             form.BringToFront();
         }
+
+        private void ptnSale_Click(object sender, EventArgs e)
+        {
+            btnAdmin.BackColor = Color.Teal;
+            btnCustomer.BackColor = Color.Teal;
+            
+            btnPurchase.BackColor = Color.Teal;
+            btnSale.BackColor = Color.Black;
+            btnEmployee.BackColor = Color.Teal;
+            btnDashboard.BackColor = Color.Teal;
+            btnVendor.BackColor = Color.Teal;
+            btnAdjustment.BackColor = Color.Teal;
+            btnItem.BackColor = Color.Teal;
+            SaleForm form = new SaleForm();
+            form.TopLevel = false;
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.WindowState = FormWindowState.Maximized;
+            form.Dock = DockStyle.Fill;
+            pnBookshopSys.Controls.Add(form);
+            form.Show();
+            form.BringToFront();
+        }
+
+        private void btnItem_Click(object sender, EventArgs e)
+        {
+            btnAdmin.BackColor = Color.Teal;
+            btnCustomer.BackColor = Color.Teal;
+           
+            btnPurchase.BackColor = Color.Teal;
+            btnSale.BackColor = Color.Teal;
+            btnEmployee.BackColor = Color.Teal;
+            btnDashboard.BackColor = Color.Teal;
+            btnVendor.BackColor = Color.Teal;
+            btnAdjustment.BackColor = Color.Teal;
+            btnItem.BackColor = Color.Black;
+            ItemForm form = new ItemForm();
+            form.TopLevel = false;
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.WindowState = FormWindowState.Maximized;
+            form.Dock = DockStyle.Fill;
+            pnBookshopSys.Controls.Add(form);
+            form.Show();
+            form.BringToFront();
+        }
+
+        private void btnAdjustment_Click(object sender, EventArgs e)
+        {
+            btnAdmin.BackColor = Color.Teal;
+            btnCustomer.BackColor = Color.Teal;
+            btnCustomer.BackColor = Color.Teal;
+            btnPurchase.BackColor = Color.Teal;
+            btnSale.BackColor = Color.Teal;
+            btnEmployee.BackColor = Color.Teal;
+            btnDashboard.BackColor = Color.Teal;
+            btnVendor.BackColor = Color.Teal;
+            btnAdjustment.BackColor = Color.Black;
+            btnItem.BackColor = Color.Teal;
+        }
+
+        private void btnAdmin_Click(object sender, EventArgs e)
+        {
+            btnAdmin.BackColor = Color.Black;
+            btnCustomer.BackColor = Color.Teal;
+            btnCustomer.BackColor = Color.Teal;
+            btnPurchase.BackColor = Color.Teal;
+            btnSale.BackColor = Color.Teal;
+            btnEmployee.BackColor = Color.Teal;
+            btnDashboard.BackColor = Color.Teal;
+            btnVendor.BackColor = Color.Teal;
+            btnAdjustment.BackColor = Color.Teal;
+            btnItem.BackColor = Color.Teal;
+        }
+
+        private void btnPurchase_Click(object sender, EventArgs e)
+        {
+            btnAdmin.BackColor = Color.Teal;
+            btnCustomer.BackColor = Color.Teal;
+            btnCustomer.BackColor = Color.Teal;
+            btnPurchase.BackColor = Color.Black; ;
+            btnSale.BackColor = Color.Teal;
+            btnEmployee.BackColor = Color.Teal;
+            btnDashboard.BackColor = Color.Teal;
+            btnVendor.BackColor = Color.Teal;
+            btnAdjustment.BackColor = Color.Teal;
+            btnItem.BackColor = Color.Teal;
+        }
+
+        
     }
 }

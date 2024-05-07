@@ -17,6 +17,14 @@ namespace DBMS_Assignment
             InitializeComponent();
         }
 
-       
+        private void VendorForm_Load(object sender, EventArgs e)
+        {
+            cbAddress.Items.Add("ទីក្រុង ភ្នំពេញ");
+            cbAddress.Items.Add("ខេត្ត សៀមរាប");
+            cbAddress.Items.Add("​​ខេត្ត តាកែវ");
+            cbAddress.Items.Add("ខេត្ត កំពង់​ចាម");
+            cbAddress.Items.Add("ខេត្ត បាត់ដំបង");
+
+        }
     }
 }

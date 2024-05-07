@@ -30,22 +30,20 @@
         {
             this.dtaVendor = new System.Windows.Forms.DataGridView();
             this.lblMobile = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.txtDiscount = new System.Windows.Forms.TextBox();
+            this.txtItemCode = new System.Windows.Forms.TextBox();
             this.lblAddress = new System.Windows.Forms.Label();
             this.lblPrice = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.lblProductName = new System.Windows.Forms.Label();
-            this.cbClientName = new System.Windows.Forms.ComboBox();
             this.txtPrice = new System.Windows.Forms.TextBox();
             this.lblDiscount = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.txtTax = new System.Windows.Forms.Label();
-            this.txtDescription = new System.Windows.Forms.TextBox();
-            this.lblDescription = new System.Windows.Forms.Label();
-            this.lblQnt = new System.Windows.Forms.Label();
+            this.cbItem = new System.Windows.Forms.ComboBox();
             this.lblClient = new System.Windows.Forms.Label();
             this.pnVendor = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblQuantity = new System.Windows.Forms.Label();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.cbAddress = new System.Windows.Forms.ComboBox();
+            this.txtMobile = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtaVendor)).BeginInit();
             this.pnVendor.SuspendLayout();
             this.SuspendLayout();
@@ -54,215 +52,193 @@
             // 
             this.dtaVendor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtaVendor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtaVendor.Location = new System.Drawing.Point(0, 331);
+            this.dtaVendor.Location = new System.Drawing.Point(0, 478);
             this.dtaVendor.Name = "dtaVendor";
-            this.dtaVendor.Size = new System.Drawing.Size(1594, 430);
+            this.dtaVendor.Size = new System.Drawing.Size(1664, 413);
             this.dtaVendor.TabIndex = 17;
             // 
             // lblMobile
             // 
             this.lblMobile.AutoSize = true;
-            this.lblMobile.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMobile.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMobile.ForeColor = System.Drawing.Color.Black;
-            this.lblMobile.Location = new System.Drawing.Point(718, 43);
+            this.lblMobile.Location = new System.Drawing.Point(895, 39);
             this.lblMobile.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMobile.Name = "lblMobile";
-            this.lblMobile.Size = new System.Drawing.Size(63, 20);
+            this.lblMobile.Size = new System.Drawing.Size(142, 42);
             this.lblMobile.TabIndex = 2;
-            this.lblMobile.Text = "Moblie :";
+            this.lblMobile.Text = "លេខទូរស័ព្ទ :";
             // 
-            // textBox3
+            // txtItemCode
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Location = new System.Drawing.Point(640, 236);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(120, 26);
-            this.textBox3.TabIndex = 10;
-            // 
-            // txtDiscount
-            // 
-            this.txtDiscount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDiscount.HideSelection = false;
-            this.txtDiscount.Location = new System.Drawing.Point(888, 236);
-            this.txtDiscount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtDiscount.Name = "txtDiscount";
-            this.txtDiscount.Size = new System.Drawing.Size(120, 26);
-            this.txtDiscount.TabIndex = 11;
+            this.txtItemCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtItemCode.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtItemCode.HideSelection = false;
+            this.txtItemCode.Location = new System.Drawing.Point(1024, 245);
+            this.txtItemCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtItemCode.Name = "txtItemCode";
+            this.txtItemCode.Size = new System.Drawing.Size(120, 50);
+            this.txtItemCode.TabIndex = 11;
             // 
             // lblAddress
             // 
             this.lblAddress.AutoSize = true;
-            this.lblAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddress.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAddress.ForeColor = System.Drawing.Color.Black;
-            this.lblAddress.Location = new System.Drawing.Point(718, 116);
+            this.lblAddress.Location = new System.Drawing.Point(895, 96);
             this.lblAddress.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(76, 20);
+            this.lblAddress.Size = new System.Drawing.Size(142, 42);
             this.lblAddress.TabIndex = 3;
-            this.lblAddress.Text = "Address :";
+            this.lblAddress.Text = "អាស័យដ្ឋាន :";
             // 
             // lblPrice
             // 
             this.lblPrice.AutoSize = true;
-            this.lblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrice.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrice.ForeColor = System.Drawing.Color.Black;
-            this.lblPrice.Location = new System.Drawing.Point(508, 209);
+            this.lblPrice.Location = new System.Drawing.Point(634, 248);
             this.lblPrice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrice.Name = "lblPrice";
-            this.lblPrice.Size = new System.Drawing.Size(52, 20);
+            this.lblPrice.Size = new System.Drawing.Size(70, 42);
             this.lblPrice.TabIndex = 9;
-            this.lblPrice.Text = "Price :";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(768, 234);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(111, 28);
-            this.comboBox3.TabIndex = 12;
+            this.lblPrice.Text = "តម្លៃ :";
             // 
             // lblProductName
             // 
             this.lblProductName.AutoSize = true;
-            this.lblProductName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProductName.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProductName.ForeColor = System.Drawing.Color.Black;
-            this.lblProductName.Location = new System.Drawing.Point(57, 209);
+            this.lblProductName.Location = new System.Drawing.Point(238, 248);
             this.lblProductName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblProductName.Name = "lblProductName";
-            this.lblProductName.Size = new System.Drawing.Size(118, 20);
+            this.lblProductName.Size = new System.Drawing.Size(145, 42);
             this.lblProductName.TabIndex = 4;
-            this.lblProductName.Text = "Product Name :";
-            // 
-            // cbClientName
-            // 
-            this.cbClientName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbClientName.FormattingEnabled = true;
-            this.cbClientName.Location = new System.Drawing.Point(221, 36);
-            this.cbClientName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cbClientName.Name = "cbClientName";
-            this.cbClientName.Size = new System.Drawing.Size(235, 28);
-            this.cbClientName.TabIndex = 1;
+            this.lblProductName.Text = "ឈ្មោះទំនិញ :";
             // 
             // txtPrice
             // 
             this.txtPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPrice.Location = new System.Drawing.Point(512, 236);
+            this.txtPrice.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice.Location = new System.Drawing.Point(712, 245);
             this.txtPrice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(120, 26);
+            this.txtPrice.Size = new System.Drawing.Size(120, 50);
             this.txtPrice.TabIndex = 8;
             // 
             // lblDiscount
             // 
             this.lblDiscount.AutoSize = true;
-            this.lblDiscount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDiscount.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDiscount.ForeColor = System.Drawing.Color.Black;
-            this.lblDiscount.Location = new System.Drawing.Point(884, 209);
+            this.lblDiscount.Location = new System.Drawing.Point(850, 248);
             this.lblDiscount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDiscount.Name = "lblDiscount";
-            this.lblDiscount.Size = new System.Drawing.Size(94, 20);
+            this.lblDiscount.Size = new System.Drawing.Size(166, 42);
             this.lblDiscount.TabIndex = 13;
-            this.lblDiscount.Text = "Discount %:";
+            this.lblDiscount.Text = "លេខកូដទំនិញ​ :";
             // 
-            // comboBox2
+            // cbItem
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(61, 234);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(235, 28);
-            this.comboBox2.TabIndex = 5;
-            // 
-            // txtTax
-            // 
-            this.txtTax.AutoSize = true;
-            this.txtTax.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTax.ForeColor = System.Drawing.Color.Black;
-            this.txtTax.Location = new System.Drawing.Point(764, 209);
-            this.txtTax.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.txtTax.Name = "txtTax";
-            this.txtTax.Size = new System.Drawing.Size(42, 20);
-            this.txtTax.TabIndex = 14;
-            this.txtTax.Text = "Tax :";
-            // 
-            // txtDescription
-            // 
-            this.txtDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDescription.Location = new System.Drawing.Point(319, 236);
-            this.txtDescription.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(185, 26);
-            this.txtDescription.TabIndex = 7;
-            // 
-            // lblDescription
-            // 
-            this.lblDescription.AutoSize = true;
-            this.lblDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescription.ForeColor = System.Drawing.Color.Black;
-            this.lblDescription.Location = new System.Drawing.Point(315, 209);
-            this.lblDescription.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(97, 20);
-            this.lblDescription.TabIndex = 6;
-            this.lblDescription.Text = "Description :";
-            // 
-            // lblQnt
-            // 
-            this.lblQnt.AutoSize = true;
-            this.lblQnt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQnt.ForeColor = System.Drawing.Color.Black;
-            this.lblQnt.Location = new System.Drawing.Point(636, 211);
-            this.lblQnt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblQnt.Name = "lblQnt";
-            this.lblQnt.Size = new System.Drawing.Size(43, 20);
-            this.lblQnt.TabIndex = 15;
-            this.lblQnt.Text = "Qnt :";
+            this.cbItem.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbItem.FormattingEnabled = true;
+            this.cbItem.Location = new System.Drawing.Point(391, 245);
+            this.cbItem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cbItem.Name = "cbItem";
+            this.cbItem.Size = new System.Drawing.Size(235, 50);
+            this.cbItem.TabIndex = 5;
             // 
             // lblClient
             // 
             this.lblClient.AutoSize = true;
-            this.lblClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClient.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblClient.ForeColor = System.Drawing.Color.Black;
-            this.lblClient.Location = new System.Drawing.Point(57, 43);
+            this.lblClient.Location = new System.Drawing.Point(238, 36);
             this.lblClient.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblClient.Name = "lblClient";
-            this.lblClient.Size = new System.Drawing.Size(103, 20);
+            this.lblClient.Size = new System.Drawing.Size(161, 42);
             this.lblClient.TabIndex = 0;
-            this.lblClient.Text = "Client Name :";
+            this.lblClient.Text = "ឈ្មោះបុគ្គលិក :";
             // 
             // pnVendor
             // 
+            this.pnVendor.Controls.Add(this.textBox1);
+            this.pnVendor.Controls.Add(this.lblQuantity);
+            this.pnVendor.Controls.Add(this.txtName);
+            this.pnVendor.Controls.Add(this.cbAddress);
+            this.pnVendor.Controls.Add(this.txtMobile);
             this.pnVendor.Controls.Add(this.lblClient);
-            this.pnVendor.Controls.Add(this.lblQnt);
-            this.pnVendor.Controls.Add(this.lblDescription);
-            this.pnVendor.Controls.Add(this.txtDescription);
-            this.pnVendor.Controls.Add(this.txtTax);
-            this.pnVendor.Controls.Add(this.comboBox2);
+            this.pnVendor.Controls.Add(this.cbItem);
             this.pnVendor.Controls.Add(this.lblDiscount);
             this.pnVendor.Controls.Add(this.txtPrice);
-            this.pnVendor.Controls.Add(this.cbClientName);
             this.pnVendor.Controls.Add(this.lblProductName);
-            this.pnVendor.Controls.Add(this.comboBox3);
             this.pnVendor.Controls.Add(this.lblPrice);
             this.pnVendor.Controls.Add(this.lblAddress);
-            this.pnVendor.Controls.Add(this.txtDiscount);
-            this.pnVendor.Controls.Add(this.textBox3);
+            this.pnVendor.Controls.Add(this.txtItemCode);
             this.pnVendor.Controls.Add(this.lblMobile);
             this.pnVendor.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnVendor.Location = new System.Drawing.Point(0, 0);
             this.pnVendor.Name = "pnVendor";
-            this.pnVendor.Size = new System.Drawing.Size(1594, 331);
+            this.pnVendor.Size = new System.Drawing.Size(1664, 478);
             this.pnVendor.TabIndex = 18;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(1045, 151);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(235, 50);
+            this.textBox1.TabIndex = 20;
+            // 
+            // lblQuantity
+            // 
+            this.lblQuantity.AutoSize = true;
+            this.lblQuantity.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuantity.ForeColor = System.Drawing.Color.Black;
+            this.lblQuantity.Location = new System.Drawing.Point(895, 153);
+            this.lblQuantity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblQuantity.Name = "lblQuantity";
+            this.lblQuantity.Size = new System.Drawing.Size(78, 42);
+            this.lblQuantity.TabIndex = 19;
+            this.lblQuantity.Text = "ចំនួន :";
+            // 
+            // txtName
+            // 
+            this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtName.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Location = new System.Drawing.Point(407, 28);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(289, 50);
+            this.txtName.TabIndex = 18;
+            // 
+            // cbAddress
+            // 
+            this.cbAddress.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbAddress.FormattingEnabled = true;
+            this.cbAddress.Location = new System.Drawing.Point(1045, 93);
+            this.cbAddress.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cbAddress.Name = "cbAddress";
+            this.cbAddress.Size = new System.Drawing.Size(235, 50);
+            this.cbAddress.TabIndex = 17;
+            // 
+            // txtMobile
+            // 
+            this.txtMobile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtMobile.Font = new System.Drawing.Font("Khmer OS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMobile.Location = new System.Drawing.Point(1045, 36);
+            this.txtMobile.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtMobile.Name = "txtMobile";
+            this.txtMobile.Size = new System.Drawing.Size(235, 50);
+            this.txtMobile.TabIndex = 16;
             // 
             // VendorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1594, 761);
+            this.ClientSize = new System.Drawing.Size(1664, 891);
             this.Controls.Add(this.dtaVendor);
             this.Controls.Add(this.pnVendor);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -270,6 +246,7 @@
             this.Name = "VendorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VendorForm";
+            this.Load += new System.EventHandler(this.VendorForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtaVendor)).EndInit();
             this.pnVendor.ResumeLayout(false);
             this.pnVendor.PerformLayout();
@@ -280,21 +257,19 @@
         #endregion
         private System.Windows.Forms.DataGridView dtaVendor;
         private System.Windows.Forms.Label lblMobile;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox txtDiscount;
+        private System.Windows.Forms.TextBox txtItemCode;
         private System.Windows.Forms.Label lblAddress;
         private System.Windows.Forms.Label lblPrice;
-        private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Label lblProductName;
-        private System.Windows.Forms.ComboBox cbClientName;
         private System.Windows.Forms.TextBox txtPrice;
         private System.Windows.Forms.Label lblDiscount;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label txtTax;
-        private System.Windows.Forms.TextBox txtDescription;
-        private System.Windows.Forms.Label lblDescription;
-        private System.Windows.Forms.Label lblQnt;
+        private System.Windows.Forms.ComboBox cbItem;
         private System.Windows.Forms.Label lblClient;
         private System.Windows.Forms.Panel pnVendor;
+        private System.Windows.Forms.ComboBox cbAddress;
+        private System.Windows.Forms.TextBox txtMobile;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblQuantity;
     }
 }

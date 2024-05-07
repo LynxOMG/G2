@@ -36,6 +36,12 @@ namespace DBMS_Assignment
             cbChild.Items.Add("៧");
             cbChild.Items.Add("៨");
             cbChild.Items.Add("៩");
+            cbRole.Items.Add("លក់");
+            cbRole.Items.Add("គិតលុយ");
+            cbRole.Items.Add("អនាម័យ");
+            cbRole.Items.Add("ដឹកជញ្ជូន");
+            cbRole.Items.Add("រៀបចំសៀវភៅ");
+           
 
         }
     }
